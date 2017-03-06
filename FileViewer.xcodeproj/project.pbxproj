@@ -11,6 +11,8 @@
 		E90C9EDB1E6C0D760041C7E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C9EDA1E6C0D760041C7E1 /* ViewController.swift */; };
 		E90C9EDD1E6C0D760041C7E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90C9EDC1E6C0D760041C7E1 /* Assets.xcassets */; };
 		E90C9EE01E6C0D760041C7E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90C9EDE1E6C0D760041C7E1 /* Main.storyboard */; };
+		E90C9EEE1E6C17EB0041C7E1 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C9EED1E6C17EB0041C7E1 /* WindowController.swift */; };
+		E90C9EF01E6C23B20041C7E1 /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C9EEF1E6C23B20041C7E1 /* Directory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		E90C9EDC1E6C0D760041C7E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E90C9EDF1E6C0D760041C7E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E90C9EE11E6C0D760041C7E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90C9EED1E6C17EB0041C7E1 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		E90C9EEF1E6C23B20041C7E1 /* Directory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				E90C9EDA1E6C0D760041C7E1 /* ViewController.swift */,
 				E90C9EDC1E6C0D760041C7E1 /* Assets.xcassets */,
 				E90C9EDE1E6C0D760041C7E1 /* Main.storyboard */,
+				E90C9EED1E6C17EB0041C7E1 /* WindowController.swift */,
+				E90C9EEF1E6C23B20041C7E1 /* Directory.swift */,
 				E90C9EE11E6C0D760041C7E1 /* Info.plist */,
 			);
 			path = FileViewer;
@@ -134,7 +140,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E90C9EDB1E6C0D760041C7E1 /* ViewController.swift in Sources */,
+				E90C9EEE1E6C17EB0041C7E1 /* WindowController.swift in Sources */,
 				E90C9ED91E6C0D760041C7E1 /* AppDelegate.swift in Sources */,
+				E90C9EF01E6C23B20041C7E1 /* Directory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
